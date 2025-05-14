@@ -1,33 +1,35 @@
-# Exp.No:39  
-## DEQUE - INSERTION
+# Experiment No: - Inserting Elements at Rear End of Deque Using Built-in Function
 
----
+## AIM  
+To write a Python program to insert elements 14 and 15 at the rear end of a deque using the collection's built-in function.
 
-### AIM  
-To write a Python program to insert elements at REAR END of deque using a collection built-in function.
+## ALGORITHM  
+1. Import `deque` from the `collections` module.
+2. Initialize an empty deque.
+3. Use a loop to append three numbers to the deque using `append()`.
+4. Append 14 and 15 to the deque using the `append()` function.
+5. Print the deque after appending the elements.
 
----
+## PROGRAM
+```python
+from collections import deque
 
-### ALGORITHM  
+d = deque()
 
-1. Import the `deque` class from the `collections` module.  
-2. Initialize an empty deque.  
-3. Start an infinite loop using `while True`.  
-4. In each iteration, take input from the user.  
-5. If the input is an empty string, break the loop.  
-6. If the input is not empty, convert it to an integer and append it to the deque.  
-7. After the loop ends, append the values `14` and `15` to the deque.  
-8. Print the message `"The deque after appending at right is :"`.  
-9. Print the contents of the deque.  
+for _ in range(3):
+    d.append(int(input()))
+    
+d.append(14)
+d.append(15)
 
----
-
-### PROGRAM  
-
-```
+print("The deque after appending at right is : ")
+print(d)
 
 ```
 
 ### OUTPUT
+![image](https://github.com/user-attachments/assets/52285cde-4cfd-4b65-b530-873e3883d109)
+
 
 ### RESULT
+Thus, the Python program to insert elements 14 and 15 at the rear end of a deque using the collection's built-in function has been implemented and executed successfully.
