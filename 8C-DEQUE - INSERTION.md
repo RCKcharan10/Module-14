@@ -1,4 +1,4 @@
-# Experiment No: - Inserting Elements at Rear End of Deque Using Built-in Function
+# Experiment No: 8c - Inserting Elements at Rear End of Deque Using Built-in Function
 
 ## AIM  
 To write a Python program to insert elements 14 and 15 at the rear end of a deque using the collection's built-in function.
