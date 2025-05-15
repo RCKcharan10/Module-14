@@ -1,4 +1,4 @@
-# Experiment No: 8d - Deleting Element at Rear End of Deque Using Built-in Function
+# Experiment No: 14d - Deleting Element at Rear End of Deque Using Built-in Function
 
 ## AIM  
 To write a Python program to delete an element at the rear end of a deque using the collection's built-in function.
