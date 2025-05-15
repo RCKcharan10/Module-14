@@ -1,4 +1,4 @@
-# Experiment No: 8b- Simple Implementation of Priority Queue Using Queue
+# Experiment No: 14b- Simple Implementation of Priority Queue Using Queue
 
 ## AIM  
 To implement a simple Priority Queue using a Queue and complete the Insert and Delete functions.
